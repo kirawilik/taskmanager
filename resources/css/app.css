@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ===== RESET SIMPLE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* ===== TITRES ===== */
+h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ===== FORM ===== */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* ===== INPUTS ===== */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #2ccc62;
+    outline: none;
+}
+
+/* ===== BUTTON ===== */
+button {
+    background: #2ccc62;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #24b353;
+}
+
+/* ===== LINKS ===== */
+a {
+    text-decoration: none;
+    color: #219b35;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    background: #fff;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ===== TABLE HEAD ===== */
+th {
+    background: #28af65;
+    color: white;
+    text-align: left;
+}
+
+/* ===== TABLE CELLS ===== */
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* ===== ROW HOVER ===== */
+tr:hover {
+    background: #f9f9f9;
+}
+
+/* ===== ACTIONS ===== */
+td form {
+    display: inline;
+}
+
+/* ========================= */
+/*        STATUS BADGES     */
+/* ========================= */
+
+.status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+/* TODO */
+.status-todo {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* EN COURS */
+.status-in_progress {
+    background: #cce5ff;
+    color: #004085;
+}
+
+/* TERMINÉ */
+.status-done {
+    background: #d4edda;
+    color: #155724;
+}
