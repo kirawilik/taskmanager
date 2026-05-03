@@ -53,7 +53,8 @@ Créer un MVP (Minimum Viable Product) fonctionnel, sécurisé et respectant les
 * Filtrer par catégorie
 
 ---
-
+### Diagramme MLD
+![MLD](docs/mld.jpeg)
 ## Architecture & Concepts Laravel
 
 * Routes protégées avec middleware `auth`
